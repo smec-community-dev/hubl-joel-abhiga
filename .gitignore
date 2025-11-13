@@ -1,0 +1,88 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+coverage.xml
+nosetests.xml
+*.cover
+*.py,cover
+
+# Django Stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Django Migrations (optional)
+# comment out if you WANT to track migrations
+**/migrations/**
+!**/migrations/__init__.py
+
+# Static & Media
+staticfiles/
+static/
+media/
+
+# =========================
+# IDE / Editor Files
+# =========================
+
+# VS Code
+.vscode/
+.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iws
+*.iml
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# OS / General
+# =========================
+.DS_Store
+Thumbs.db
