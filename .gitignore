@@ -51,10 +51,7 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Django Migrations (optional)
-# comment out if you WANT to track migrations
-**/migrations/**
-!**/migrations/__init__.py
+
 
 # Static & Media
 staticfiles/
